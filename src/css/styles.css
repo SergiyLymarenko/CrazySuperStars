@@ -6,3 +6,9 @@
 @import url('./order.css');
 @import url('./testimonial.css');
 @import url('./footer.css');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: #fcf9f9;
+  background-color: #1c2225;
+}
