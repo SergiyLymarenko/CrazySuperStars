@@ -1,0 +1,41 @@
+/* MOBILE */
+/* обертка секции */
+.collection {
+  padding: 0 20px;
+  margin-top: 80px;
+  max-width: 335px;
+}
+/* заголовок h2 */
+.collection-title {
+  font-weight: 500;
+  line-height: 44px;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: -0.96px;
+  margin-bottom: 40px;
+}
+/* фото в секции */
+.collection-img {
+  /*//// временно///// */
+border: 3px solid;
+border-color: red;
+/* /////////////// */
+  border-radius: 3px;
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+/* заголовок h3 */
+.collection-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 14px;
+  margin-bottom: 8px;
+}
+/* текст с ценой */
+.collection-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 14px;
+}
