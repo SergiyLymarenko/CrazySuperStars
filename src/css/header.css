@@ -1,0 +1,89 @@
+.header-link {
+    text-transform: uppercase;
+}
+
+
+
+/* mob-menu-start */
+
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 274px;
+    /*width: 100vw;*/
+    height: 100vh;
+    background-color: #ECD979;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .mob-menu {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .mob-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {}
+
+.mob-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mob-menu-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.mob-address {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+}
+
+.mob-contacts-link {
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    text-transform: uppercase;
+}
+
+.mob-header-menu {
+    text-align: right;
+}
+
+.mob-header-menu {
+    color: #1C2225;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+    margin-left: 110px;
+}
+
+/* mob-menu-end */
