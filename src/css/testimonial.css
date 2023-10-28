@@ -1,23 +1,91 @@
 .testimonials {}
 
-.section {}
+.section {
+    width: 100%;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 
+<<<<<<< Updated upstream
 .testimonials-container {}
 
 .testimonials-title {}
+=======
+@media screen and (min-width: 768px) {
+    .section {
+        min-width: 704px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section {
+        min-width: 1136px;
+    }
+}
+
+.testimonials-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testimonials-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+
+    margin-bottom: 40px;
+}
+>>>>>>> Stashed changes
 
 .testimonials-list {}
 
 .list {}
 
-.testimonials-item {}
+.testimonials-item {
+    padding: 0 18px 18px 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
 
 .testimonials-img {}
 
-.testimonials-item-subtitle {}
+.testimonials-item-subtitle {
+    color: #FCF9F9;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
 
+<<<<<<< Updated upstream
 .testimonials-item-text {}
 
 .testimonials-item-sergey {}
 
 .testimonials-item-natalia {}
+=======
+    margin-bottom: 8px;
+}
+    
+
+.testimonials-item-text {
+    max-width: 291px;
+   
+    color: rgba(252, 249, 249, 0.40);
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.testimonials-item-sergey {
+    display: none;
+}
+
+.testimonials-item-natalia {
+    display: none;
+}
+>>>>>>> Stashed changes
