@@ -1,0 +1,46 @@
+.about{
+    max-width: 335px;
+    padding: 0 20px;
+}
+
+.about-title{
+    color:#FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37; 
+    letter-spacing: 0.03em;
+    margin-bottom: 40px;
+}
+
+.about-text{
+    width: 335px;
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:768px)  {
+    
+    .about-title{
+    font-size: 44px;
+    line-height: 1.45;
+    }
+
+    .about-text {
+    width: 704px;;
+    font-size: 16px;
+    }
+
+    .about-img{
+    width: 704px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+}
