@@ -13,7 +13,7 @@
   left: 0;
   z-index: 1;
   width: 274px;
-  /* width: 100vw;*/
+  /*width: 100vw;*/
   height: 100vh;
   background-color: #ECD979;
   padding: 20px 20px 0 20px;
@@ -62,4 +62,36 @@
   text-align: right;
 }
 
+.mob-header-menu {
+  color: #1C2225;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+  margin-left: 110px;
+  margin-right: ;
+}
 /* mob-menu-end */
+
+
+/*  media-start  */
+
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+/*  media-end  */
