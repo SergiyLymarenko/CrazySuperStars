@@ -1,6 +1,4 @@
-.testimonials {}
-
-.section {
+.testimonials {
     width: 100%;
     max-width: 375px;
     padding-left: 20px;
@@ -9,26 +7,43 @@
     outline: 1px solid red;
 }
 
-<<<<<<< Updated upstream
-.testimonials-container {}
-
-.testimonials-title {}
-=======
 @media screen and (min-width: 768px) {
-    .section {
-        min-width: 704px;
+    .testimonials {
+        max-width: 744px;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .section {
-        min-width: 1136px;
+@media screen and (min-width: 1280px) {
+    .testimonials {
+        max-width: 1120px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .testimonials {
+        max-width: 1280px;
+    }
+}
+
+.section {}
 
 .testimonials-container {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .testimonials-container {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 }
 
 .testimonials-title {
@@ -40,19 +55,55 @@
 
     margin-bottom: 40px;
 }
->>>>>>> Stashed changes
 
-.testimonials-list {}
+@media screen and (min-width: 768px) {
+    .testimonials-title {
+        font-size: 44px;
+        line-height: 1.45;
+    }
+}
 
-.list {}
+.testimonials-list {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials-list {
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .testimonials-list {
+        gap: 26px;
+    }
+}
 
 .testimonials-item {
     padding: 0 18px 18px 18px;
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.10);
+    position: relative;
 }
 
-.testimonials-img {}
+@media screen and (min-width: 768px) {
+    .testimonials-item {
+        width: calc((100% - 32px) / 2);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .testimonials-item {
+        width: calc((100% - 2 * 26px) / 3);
+    }
+}
+
+.testimonials-img {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 .testimonials-item-subtitle {
     color: #FCF9F9;
@@ -61,31 +112,54 @@
     font-weight: 600;
     line-height: 1.5em;
 
-<<<<<<< Updated upstream
-.testimonials-item-text {}
-
-.testimonials-item-sergey {}
-
-.testimonials-item-natalia {}
-=======
     margin-bottom: 8px;
 }
-    
 
 .testimonials-item-text {
     max-width: 291px;
-   
+
     color: rgba(252, 249, 249, 0.40);
     text-align: center;
     font-size: 14px;
+    font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials-item-text {
+        max-width: 300px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .testimonials-item-text {
+        max-width: 307px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .testimonials-item-text {
+            max-width: 360px;
+        }
 }
 
 .testimonials-item-sergey {
     display: none;
 }
 
+@media screen and (min-width: 768px) {
+    .testimonials-item-sergey {
+        display: block;
+    }
+}
+
 .testimonials-item-natalia {
     display: none;
 }
->>>>>>> Stashed changes
+
+@media screen and (min-width: 1280px) {
+    .testimonials-item-natalia {
+        display: block;
+    }
+}
