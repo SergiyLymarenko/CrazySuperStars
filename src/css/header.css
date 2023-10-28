@@ -25,6 +25,21 @@
   pointer-events: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {}
+
+
 .mob-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -77,20 +92,6 @@
 
 /*  media-start  */
 
-@media screen and (min-width: 768px) {
-  .mob-menu {
-    width: 380px;
-  }
-}
 
-@media screen and (min-width: 1280px) {
-  .mob-menu {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-
-}
 
 /*  media-end  */
