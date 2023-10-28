@@ -3,3 +3,11 @@ body {
   color: #fcf9f9;
   background-color: #1c2225;
 }
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
