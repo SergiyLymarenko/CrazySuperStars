@@ -1,0 +1,88 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 292px;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+
+  background-image: url(../img/mobile/vyshyvanka-footer-mobile-1x.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@media (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(../img/mobile/vyshyvanka-footer-mobile-2x.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-container {
+  max-width: 375px;
+}
+.footer-menu {
+  max-width: 280px;
+  margin-bottom: 40px;
+}
+.footer-menu-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 25px;
+  column-gap: 40px;
+}
+.footer-menu-list li:nth-child(1) {
+  order: 1;
+}
+
+.footer-menu-list li:nth-child(2) {
+  order: 3;
+}
+
+.footer-menu-list li:nth-child(3) {
+  order: 2;
+}
+
+.footer-menu-list li:nth-child(4) {
+  order: 4;
+  margin-right: 28px;
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #fcf9f9;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  display: block;
+  max-width: 335px;
+}
+.footer-span-text {
+  color: #ecd979;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.22px;
+  letter-spacing: -0.03em;
+}
