@@ -1,4 +1,4 @@
-.testimonials {
+/*.testimonials {
     width: 100%;
     max-width: 375px;
     padding-left: 20px;
@@ -23,9 +23,9 @@
     .testimonials {
         max-width: 1280px;
     }
-}
+}*/
 
-.section {}
+.section {outline: 1px solid red;}
 
 .testimonials-container {
     padding-top: 80px;
@@ -53,7 +53,7 @@
     line-height: 1.38;
     letter-spacing: -0.03em;
 
-    margin-bottom: 40px;
+    margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
@@ -103,6 +103,7 @@
     top: -24px;
     left: 50%;
     transform: translate(-50%);
+    
 }
 
 .testimonials-item-subtitle {
@@ -112,6 +113,7 @@
     font-weight: 600;
     line-height: 1.5em;
 
+    margin-top: 54px;
     margin-bottom: 8px;
 }
 
