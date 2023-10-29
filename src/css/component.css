@@ -5,9 +5,24 @@ body {
 }
 
 .container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
+    width: 100%;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    outline: 1px solid red;
 }
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 744px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1120px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1280px;
+    }
