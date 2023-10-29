@@ -76,7 +76,7 @@
   line-height: 1.22;
   letter-spacing: -0.03em;
   display: block;
-  width: 100%;
+  max-width: 335px;
 }
 .footer-span-text {
   color: #ecd979;
