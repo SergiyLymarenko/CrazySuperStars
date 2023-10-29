@@ -280,7 +280,6 @@
 
 
 .menu-mob-btn {
-
     background: #1C2225;
     border: none;
     padding: 0;
@@ -288,5 +287,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (min-width: 1280px) {
+    .menu-mob-btn {
+        display: none;
+    }
+}
+
 
 /* mob-menu-end */
