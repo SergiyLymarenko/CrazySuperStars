@@ -1,6 +1,9 @@
+<link rel="stylesheet" href="../css/component.css">
+<link rel="stylesheet" href="../css/order.css">
 <section class="order">
+  <div class="container order-container">
   <div class="order-photo"></div>
-
+  
   <div class="order-section">
     <h2 class="orer-text">
       <span class="order-span">Your order</span> is our priority: Personalized
@@ -20,18 +23,25 @@
           placeholder="Enter your email"
         />
         <textarea
-          class="textarea"
+          class="order-input textarea"
           name="user-comment"
           id="user-comment"
           placeholder="Comments"
+          height="196"
+          width="335"
         ></textarea>
-      </div>
-      <button type="submit" class="order-btn">
+        
+      
+    </form>
+  </div>
+    
+      <button type="button" class="order-btn">
         Send
-        <svg class="orer-icon" height="10" width="26">
-          <use></use>
+        <svg class="orer-icon" height="19" width="36">
+          <use  class="logo-order-svg" href="../img/symbol-defs.svg#icon-arrow"></use>
         </svg>
       </button>
-    </form>
+   
+  
   </div>
 </section>
