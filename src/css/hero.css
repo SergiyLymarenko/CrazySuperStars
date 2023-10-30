@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     position: relative;
     overflow: hidden;
     padding-top: 106px;
@@ -15,20 +15,20 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero{
+  .hero {
     padding-top: 100px;
     max-width: 1120px;
   }
 }
 
-@media screen and (min-width: 1440px){
-  .hero{
+@media screen and (min-width: 1440px) {
+  .hero {
     max-width: 1280px;
     justify-content: left;
   }
 }
 
-.hero-container{
+.hero-container {
 }
 
 @media screen and (min-width: 1280px) {
@@ -36,14 +36,24 @@
     display: flex;
     gap: 40px;
     flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-container {
+  }
+}
 
+.container-title {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-title {
+    flex-direction: row;
   }
 }
 
@@ -53,21 +63,24 @@
 
 @media screen and (min-width: 768px) {
   .hero-star {
-    position: absolute;
-    top: 80px;
-    right: 32px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 80px;
+    right: 12px;
   }
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .hero-star {
     top: 114px;
-    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-star {
+    top: 166px;
   }
 }
 
@@ -101,12 +114,14 @@
     font-size: 54px;
     line-height: 1.18;
     max-width: 549px;
+    justify-content: end;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-title {
     max-width: 518px;
+    padding-top: 94px;
   }
 }
 
@@ -115,6 +130,7 @@
     font-size: 64px;
     line-height: 1.16;
     max-width: 632px;
+    padding-top: 66px;
   }
 }
 
@@ -151,18 +167,21 @@
 @media screen and (min-width: 768px) {
   .images-crop {
     display: block;
-    width: 100px;
-    height: 95px;
-    border-radius: 50% / 50%;
     position: absolute;
-    right: 0px;
-    bottom: -30px;
+    right: 3px;
+    bottom: 0px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
   }
 }
 
