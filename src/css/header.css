@@ -218,11 +218,38 @@
     padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     opacity: 0;
     visibility: hidden;
     pointer-events: auto;
+    background-image: url(../img/mobile/vyshyvanka-menu-1x.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .mob-menu {
+        background-image: url(../img/mobile/vyshyvanka-menu-2x.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mob-menu {
+        background-image: url(../img/tablet/vyshyvanka-menu-1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .mob-menu {
+        background-image: url(../img/tablet/vyshyvanka-menu-2x.png);
+    }
+}
+}
+
+
 
 @media screen and (min-width: 768px) {
     .mob-menu {
@@ -297,8 +324,9 @@
 
 .mob-nav-menu {
     text-align: right;
-
+    /*     */
 }
+
 
 .mob-nav- menu {
     margin-bottom: 20px;
@@ -364,7 +392,5 @@
         display: none;
     }
 }
-
-
 
 /* mob-menu-end */
