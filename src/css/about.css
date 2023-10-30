@@ -1,3 +1,32 @@
+.about{
+    background-image: url(../img/about/element-about.png);
+    background-position: left calc(100% - -120px) bottom;
+    background-repeat: no-repeat;
+    background-size: 408px 459px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .about{
+        background-image: url(../img/about/element-about-2x.png);
+    }
+}
+
+@media screen and (min-width:768px){
+    .about{
+    background-position: left calc(100% - -50px) bottom;
+    background-size: 484px 545px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .about{
+        background-position: left calc(100% - 0px) bottom;
+        background-size: 484px 545px;
+    }
+}
+
 .container-about{
     width: 335px;
     padding-bottom: 60px;
