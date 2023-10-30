@@ -53,15 +53,8 @@
 }
 
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi){
-    .order-photo{
-        background-image: url(../img/mobile/girl-about-2x.jpeg);
-        
-        
-        
-    }
-}
+
+
 
 
 .order-section{
@@ -114,6 +107,13 @@ align-self: stretch;
     align-items: flex-start;
      gap: 20px;
     }
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi){
+    .order-photo{
+        
+        background-image: url(../img/tablet/girl-about-2x.jpeg);  
+    }
+}
 }
 .order-input{
     border-radius: 15px;
