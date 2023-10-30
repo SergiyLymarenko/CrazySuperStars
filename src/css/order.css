@@ -1,12 +1,66 @@
 .order-container{
     margin: 0 auto;
     width: 335px;
+    
+    
 }
+
+
 @media screen and (min-width: 768px) {
     .order-container {
       max-width: 768px;
     }
 
+}
+@media screen and (min-width: 768px) {
+    .order-container {
+      max-width: 768px;
+    }
+}
+.order-photo{
+    width: 100%;
+    height: 100%;
+    height: 500px;
+    background-image: url(../img/mobile/girl-about-1x.jpeg);
+    margin: 80px 0 80px 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: contain;
+}
+@media screen and (min-width: 768px) {
+    .order-photo{
+        
+        background: url(../img/tablet/girl-about-1x.jpeg) ;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+        margin: 100px 0 100px 0;
+        background-size: contain;
+        
+    }
+}
+@media screen and (min-width: 1280px) {
+    .order-photo{
+        
+        background: url(../img/tablet/), lightgray ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        
+    }
+}
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi){
+    .order-photo{
+        background-image: url(../img/mobile/girl-about-2x.jpeg);
+        
+        
+        
+    }
 }
 
 
@@ -20,15 +74,27 @@
     gap: 40px;
 }
 
+
 .orer-text{
     color: #FCF9F9;
     margin: 0;
 font-size: 32px;
-
+width: 335px;
 font-weight: 500;
 line-height: 1.38;
 letter-spacing: -0.96px;
 }
+
+@media screen and (min-width: 768px) {
+     .order-text{
+        width: 542px;
+        font-size: 44px;  
+        line-height: 1.32px;
+    }
+   
+}
+
+
 .order-span{
     color: #ECD979;
     
@@ -39,6 +105,15 @@ flex-direction: column;
 align-items: flex-start;
 gap: 20px;
 align-self: stretch;
+}
+@media screen and (min-width: 768px) {
+    .form-order{
+        display: flex;
+    width: 508px;
+    flex-direction: column;
+    align-items: flex-start;
+     gap: 20px;
+    }
 }
 .order-input{
     border-radius: 15px;
@@ -71,6 +146,20 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: -0.32px;
 }
+@media screen and (min-width: 768px) {
+    .order-input::placeholder{
+        font-size: 16px;
+    }
+   .order-section{
+    align-items: start;
+   }
+    .order-input{
+    width: 476px;
+   }
+   .textarea{
+    width: 476px;
+   }
+}
 .order-label{
     display: flex;
     flex-direction: column;
@@ -85,7 +174,7 @@ letter-spacing: -0.32px;
 border: 1px solid rgba(252, 249, 249, 0.10);
     
     background-color: transparent;
-width: 335px;
+
 height: 196px;
 padding: 14px 16px;
 display: block;
@@ -94,7 +183,7 @@ resize:none;
 }
 .logo-order-svg{
     width: 26px;
-height: 10px;
+    height: 10px;
 
 }
 .order-btn{
@@ -118,4 +207,40 @@ text-transform: uppercase;
 }
 .order-btn:hover, .order-btn:focus{
     border: 1px solid var(--yellow, #ECD979);
+}
+.order-section-last{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .order-section-last{
+        margin-top: 216px;
+        display: flex;
+        position: relative;
+        flex-direction: row-reverse;
+    }
+
+    .order-section-two {
+        display: flex;
+        width: 638px;
+    height: 521px;
+    border-radius: 4px;
+    background: url(../img/tablet/pattern-1x.jpeg), lightgray 50% ;
+    position: relative;
+    left:-480px;
+        top:-116px;
+    }
+    
+    .order-tree{
+        display: flex;
+        
+width: 545px;
+height: 484px;
+padding: 0px 0.731px 0.539px 0px;
+justify-content: start ;
+align-items: center;
+position: relative;
+left: -255px;
+  
+background-image: url(../img/tablet/vyshyvka-tablet-bg-1x.png);
+    }
 }
