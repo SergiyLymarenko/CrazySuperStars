@@ -2,9 +2,13 @@
     margin: 0 auto;
     width: 335px;
 }
+@media screen and (min-width: 768px) {
+    .order-container {
+      max-width: 768px;
+    }
+}
 .order-photo{
     width: 100%;
-    height: 100%;
     height: 550px;
     background-image: url(../img/mobile/girl-about-1x.jpeg);
     
@@ -14,6 +18,38 @@
     margin: 80px 0 80px;
     background-repeat: no-repeat;
     border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+    .order-photo{
+        
+        background: url(../img/tablet/girl-about-1x.jpeg), lightgray ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        
+    }
+}
+@media screen and (min-width: 1280px) {
+    .order-photo{
+        
+        background: url(), lightgray ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        
+    }
+}
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .order-photo{
+        background-image: url(../img/mobile/girl-about-2x.jpeg);
+        background-size: 100% auto;
+        
+        
+    }
 }
 
 .order-section{
@@ -25,6 +61,7 @@
     align-items: center;
     gap: 40px;
 }
+
 .orer-text{
     color: #FCF9F9;
     margin: 0;
