@@ -71,7 +71,7 @@
     
   }
 
-.orer-text{
+.order-text{
     color: #FCF9F9;
     margin: 0;
 font-size: 32px;
@@ -81,14 +81,6 @@ line-height: 1.38;
 letter-spacing: -0.96px;
 }
 
-@media screen and (min-width: 768px) {
-     .order-text{
-        width: 542px;
-        font-size: 44px;  
-        line-height: 1.32px;
-    }
-   
-}
 
 
 .order-span{
@@ -146,6 +138,12 @@ line-height: normal;
 letter-spacing: -0.32px;
 }
 @media screen and (min-width: 768px) {
+     .order-text{
+        width: 542px;
+        font-size: 44px;  
+        
+    }
+   
     .order-input::placeholder{
         font-size: 16px;
     }
@@ -217,31 +215,31 @@ text-transform: uppercase;
         position: relative;
         flex-direction: row-reverse;
     }
-
+    
     .order-section-two {
-        display: flex;
+        display: block;
         width: 638px;
-    height: 521px;
+        height: 521px;
     border-radius: 4px;
     background: url(../img/tablet/pattern-1x.jpeg), lightgray 50% ;
     position: relative;
-    left:;
-        top:;
+    left: -150px;
+    z-index: 100;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    
     }
-    .proba{
-    display: flex;
-    flex-direction: column;
-}
+  
     .order-tree{
         display: flex;
-        background-size: contain;
+        
         width: 545px;
         height: 484px;
 padding: 0px 0.731px 0.539px 0px;
 justify-content: start ;
 align-items: center;
 position: relative;
-left: -100px;
+
 transform: rotate(-180deg);
 background-image: url(../img/tablet/vyshyvka-tablet-bg-1x.png);
     }
@@ -256,7 +254,7 @@ background-image: url(../img/tablet/vyshyvka-tablet-bg-1x.png);
     .order-tree{
         left: 150px;
     }
-    .orer-text{
+    .order-text{
         width: 542px;
         font-size: 44px;
     }
