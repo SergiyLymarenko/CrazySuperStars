@@ -36,12 +36,8 @@
     display: flex;
     gap: 40px;
     flex-direction: row-reverse;
-<<<<<<< Updated upstream
     justify-content: center;
     align-items: center;
-=======
-      }
->>>>>>> Stashed changes
   }
 }
 
@@ -148,25 +144,8 @@
   display: block;
 }
 
-<<<<<<< Updated upstream
 .images-crop {
   display: none;
-=======
-@media screen and (min-width: 768px){
-  
-}
-
-@media screen and (min-width: 1280px){
-  
-}
-
-@media screen and (min-width: 1440px){
-  
-}
-
-.images-crop{
-display: none;
->>>>>>> Stashed changes
 }
 
 @media screen and (min-width: 768px) {
