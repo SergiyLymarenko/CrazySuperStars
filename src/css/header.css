@@ -102,8 +102,6 @@
     .contacts-link:focus {
         border-color: #ECD979;
     }
-
-
 }
 
 .soc-icons {
@@ -175,6 +173,8 @@
     }
 }
 
+
+/* mob-menu-start */
 
 .mob-menu {
     position: fixed;
