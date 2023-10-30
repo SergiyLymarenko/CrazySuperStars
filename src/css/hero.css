@@ -1,6 +1,5 @@
 .hero {
   padding-top: 60px;
-  /* padding-bottom: 80px; */
   max-width: 100%;
   margin: 0 auto;
 }
@@ -28,20 +27,12 @@
   }
 }
 
-.hero-container {
-}
-
 @media screen and (min-width: 1280px) {
   .hero-container {
     display: flex;
     gap: 40px;
     flex-direction: row-reverse;
     justify-content: flex-end;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .hero-container {
   }
 }
 
@@ -135,6 +126,7 @@
 }
 
 .hero-link {
+  display: block;
   padding: 14px 36px;
   color: #fcf9f9;
   font-size: 16px;
@@ -147,7 +139,6 @@
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
-  display: block;
   width: 168px;
 }
 .hero-link:hover,
@@ -156,6 +147,10 @@
   border: 1px solid #ecd979;
 }
 
+.svg-arrow{
+  width: 26px;
+  height: 10px;
+}
 .hero-img {
   display: block;
 }
