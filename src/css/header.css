@@ -1,4 +1,4 @@
-.header-container {
+/*.header-container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
@@ -27,7 +27,7 @@
         max-width: 1440px;
     }
 }
-
+*/
 
 @media screen and (min-width: 768px) {
     .header-menu {
@@ -43,6 +43,7 @@
 
 @media screen and (min-width: 1280px) {
     .header-link {
+        outline: transparent;
         color:  #FCF9F9;
         font-family: Manrope;
         font-size: 14px;
@@ -113,6 +114,7 @@
     }
 
     .contacts-link {
+        outline: transparent;
         display: flex;
         padding: 12px 20px;
         justify-content: center;
@@ -124,11 +126,12 @@
     }
 
     .contacts-link:hover {
-        border: 1px solid  #ECD979;
+        
+        border-color: #ECD979;
     }
 
     .contacts-link:focus {
-        border: 1px solid #ECD979;
+        border-color: #ECD979;
     }
 
 
@@ -141,6 +144,7 @@
 }
 
 .icons-ground {
+    outline: transparent;
     width: 44px;
     height: 44px;
     border-radius: 15px;
@@ -153,12 +157,12 @@
 }
 
 .icons-ground:hover {
-    border: 1px solid #ECD979;
+    border-color: #ECD979;
     background: #2E2E2E;
 }
 
 .icons-ground:focus {
-    border: 1px solid #ECD979;
+    border-color: #ECD979;
     background: #2E2E2E;
 }
 
@@ -209,7 +213,8 @@
 .mob-menu {
     position: fixed;
     top: 0;
-    left: 0;
+    /*left: 0;*/
+    right: 0;
     z-index: 1;
     width: 274px;
     /*width: 100vw;*/
@@ -295,6 +300,7 @@
 }
 
 .mob-contacts-link {
+    outline: transparent;
     display: flex;
     padding: 12px 19px;
     justify-content: center;
