@@ -21,12 +21,27 @@
         </svg>
       </a>
     </div>
-
-    <img
-      src="./img/mobile/girl-1x.jpeg"
-      alt="girl-in-vyshyvanka"
-      class="hero-img"
-    />
+    <picture class="portfolio-picture">
+      <source
+        srcset=""
+        media="(min-width: 1158px)"
+      />
+      <source
+        srcset="./img/tablet/girl-1x.jpeg 1x,
+        ./img/tablet/girl-2x.jpeg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/mobile/girl-1x.jpeg 1x,
+        ./img/mobile/girl-2x.jpeg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/mobile/girl-1x.jpeg"
+        alt="girl-in-vyshyvanka"
+        class="hero-img"
+      />
+    </picture>
 
     <img
       src="../img/tablet/map-1x.jpeg"
