@@ -22,7 +22,7 @@
     width: 100%;
     height: 100%;
     height: 500px;
-    background-image: url(../img/mobile/girl-about-1x.jpeg);
+    background-image: url(./img/mobile/girl-about-1x.jpeg);
     margin: 80px 0 80px 0;
     padding-left: 0;
     padding-right: 0;
@@ -33,28 +33,47 @@
 @media screen and (min-width: 768px) {
     .order-photo{
         
-        background: url(../img/tablet/girl-about-1x.jpeg) ;
+        background: url(./img/tablet/girl-about-1x.jpeg) ;
         background-repeat: no-repeat;
         background-position:center;
         
         margin: 100px 0 100px 0;
         background-size: contain;
+        width: 768px;
+        height: 776px;
         
     }
 }
 @media screen and (min-width: 1280px) {
     .order-photo{
         
-        background: url(../img/tablet/), lightgray ;
+        background: url(./img/order/order-desktop.jpg) ;
         background-repeat: no-repeat;
         background-position:center;
         background-size: 100%;
-        
+        background-size: contain;
+       
+        width: 1282px;
+        height: 776px;
     }
     
 }
 
-
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .order-photo{
+        
+        background: url(./img/order/order-desktop2x.jpg) ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        background-size: contain;
+       
+        width: 1282px;
+        height: 776px;
+    }
+}
 
 
 
@@ -208,6 +227,17 @@ text-transform: uppercase;
 .order-section-last{
     display: none;
 }
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.order-section-two {
+    background-image: url(./img/tablet/pattern-2x.jpeg);
+}
+.order-tree{
+    background-image: url(./img/tablet/vyshyvka-tablet-bg-2x.png)
+}
+
+}
 @media screen and (min-width: 768px) {
     .proba{
         position: relative;
@@ -228,7 +258,7 @@ text-transform: uppercase;
         width: 638px;
         height: 521px;
     border-radius: 4px;
-    background: url(../img/tablet/pattern-1x.jpeg), lightgray 50% ;
+    background: url(./img/tablet/pattern-1x.jpeg), lightgray 50% ;
     position: absolute;
     top:100px;
     
@@ -250,7 +280,7 @@ margin-right: 400px;
 position: relative;
 
 transform: rotate(-180deg);
-background-image: url(../img/tablet/vyshyvka-tablet-bg-1x.png);
+background-image: url(./img/tablet/vyshyvka-tablet-bg-1x.png);
     }
 }
 
