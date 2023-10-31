@@ -1,14 +1,13 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 292px;
-  width: 100%;
-  max-width: 375px;
   margin: 0 auto;
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
 
   background-image: url(../img/mobile/vyshyvanka-footer-mobile-1x.png);
-  background-size: contain;
+  background-size: 375px;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center bottom;
 }
 
 @media (min-resolution: 192dpi) {
@@ -18,13 +17,13 @@
 }
 @media screen and (min-width: 768px) {
   .footer {
-    max-width: 744px;
     background-image: url(../img/tablet/vyshyvanka-footer-tablet-1x.png);
-    background-position: right;
+    background-size: 174px;
+    background-position: center right;
     padding-bottom: 40px;
   }
 }
-/* 768 retina2x */
+
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../img/tablet/vyshyvanka-footer-tablet-2x.png);
@@ -33,38 +32,28 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    max-width: 1120px;
-    background-image: url(../img/);
+    background-image: url(../img/footer/vyshyvanka-footer-desktop-1x.png);
+    background-size: 336px;
   }
 }
 
-/* 1280 retina2x */
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(../img/);
+    background-image: url(../img/footer/vyshyvanka-footer-desktop-2x.png);
   }
 }
 
 @media screen and (min-width: 1440px) {
   .footer {
-    max-width: 1280px;
-    background-image: url(../img/);
+    background-image: url(../img/footer/vyshyvanka-footer-desktop1440-1x.png);
+    background-size: 496px;
   }
 }
 
-/* 1440 retina2x */
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .footer {
-    background-image: url(../img/);
+    background-image: url(../img/footer/vyshyvanka-footer-desktop1440-2x.png);
   }
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .footer-container {
