@@ -28,11 +28,12 @@
 /* collection-list */
 
 .collection-list {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
   .collection-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 20px;
