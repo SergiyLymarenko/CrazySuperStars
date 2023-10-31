@@ -3,8 +3,69 @@
 .collection {
   margin-top: 80px;
   background-image: url(../img/mobile/elements-bg-1x.png);
+  background-position: 0 254px;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px) {
+  .collection {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .collection {
+    padding-top: 150px;
+  }
+}
+
+/* collection-list */
+
+.collection-list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+}
+
+/* collection-card */
+
+.collection-card {
+}
+
+@media screen and (min-width: 768px) {
+  .collection-card {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection-card {
+    width: calc((100% - 20px) / 4);
+  }
+}
+
 /* заголовок h2 */
 .collection-title {
   font-weight: 500;
@@ -14,6 +75,14 @@
   letter-spacing: -0.96px;
   margin-bottom: 40px;
 }
+
+@media screen and (min-width: 768px) {
+  .testimonials-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+}
+
 /* фото в секции */
 .collection-img {
   border-radius: 3px;
