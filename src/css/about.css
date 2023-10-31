@@ -37,6 +37,7 @@
         background-image: url(../img/about/element-des1280.png);
         background-size: 390px 484px;
         margin-bottom: 70px;
+        background-position: right bottom;
     }
 
     @media (min-device-pixel-ratio: 2),
