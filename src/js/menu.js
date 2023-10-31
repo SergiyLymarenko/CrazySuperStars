@@ -1,5 +1,5 @@
-const menuCloseButton = document.getElementById('menu-close-button');
-const menuOpenButton = document.getElementById('menu-open-button');
+const menuCloseButton = document.getElementById('.mob-menu-close');
+const menuOpenButton = document.getElementById('.menu-btn');
 const menu = document.getElementById('mobile-menu-id');
 const menuLink = document.getElementsByClassName('mobile-nav-links-item');
 const body = document.getElementsByTagName('body');
