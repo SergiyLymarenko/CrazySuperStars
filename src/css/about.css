@@ -1,34 +1,72 @@
+/*=====ABOUT=====*/
+
 .about{
-    background-image: url(../img/about/element-about.png);
-    background-position: left calc(100% - -120px) bottom;
+    background-image: url(../img/about/element-mob.png);
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: 408px 459px;
+    background-size: 260px 408px;
+    margin-bottom: 20px;
 }
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .about{
-        background-image: url(../img/about/element-about-2x.png);
+        background-image: url(../img/about/element-mob-2x.png);
     }
 }
 
 @media screen and (min-width:768px){
     .about{
-    background-position: left calc(100% - -50px) bottom;
-    background-size: 484px 545px;
+        background-image: url(../img/about/element-tab.png);
+        background-size: 380px 484px;
+        margin-bottom: 50px;
     }
+
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .about{
+        background-image: url(../img/about/element-tab-2x.png);
+    }
+}
 }
 
 @media screen and (min-width:1280px) {
     .about{
-        background-position: left calc(100% - 0px) bottom;
-        background-size: 484px 545px;
+        background-image: url(../img/about/element-des1280.png);
+        background-size: 390px 484px;
+        margin-bottom: 70px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .about{
+        background-image: url(../img/about/element-des1280-2x.png);
     }
 }
+}
+
+@media screen and (min-width:1440px) {
+    .about{
+        background-image: url(../img/about/element-des1440.png);
+        background-size: 490px 484px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .about{
+        background-image: url(../img/about/element-des1440-2x.png);
+    }
+}
+}
+
+/*=====CONTAINER-ABOUT=====*/
 
 .container-about{
-    width: 335px;
+    
     padding-bottom: 60px;
     margin: 0 auto;
     padding: 80px 0 60px 0;
@@ -36,7 +74,6 @@
 
 @media screen and (min-width:768px)  {
     .container-about{
-        width: 768px;
         padding-bottom: 50px;
         padding: 100px 0 50px 0;
     }
@@ -44,12 +81,14 @@
 
 @media screen and (min-width:1280px) {
     .container-about{
-        width: 1080px;
         padding: 150px 0 80px 0;
         display: flex;
         gap: 50px;
+        justify-content: space-between;
     }
 }
+
+/*=====ABOUT-TITLE=====*/
 
 .about-title{
     color:#FCF9F9;
@@ -61,22 +100,17 @@
 }
 
 @media screen and (min-width:768px)  {
-    
     .about-title{
-    font-size: 44px;
-    line-height: 1.45;
-    letter-spacing: 0.03em;
+        font-size: 44px;
+        line-height: 1.45;
+        letter-spacing: 0.03em;
     }
 }
 
-@media screen and (min-width:1280px) {
-    .about-title{
-        
-    }
-}
+/*=====ABOUT-TEXT=====*/
 
 .about-text{
-    width: 335px;
+    width: 100%;
     color: rgba(252, 249, 249, 0.40);
     font-size: 14px;
     font-weight: 400;
@@ -91,37 +125,50 @@
 @media screen and (min-width:768px)  {
 
     .about-text {
-    width: 704px;;
-    font-size: 16px;
-    margin-bottom: 40px;
+        width: 704px;
+        font-size: 16px;
+        margin-bottom: 40px;
     }
 }
 
 @media screen and (min-width:1280px) {
     .about-text{
         width: 436px;
+        margin-bottom: 0;
     }
 }
 
+@media screen and (min-width:1440px) {
+    .about-text{
+        width: 481px;
+        margin-bottom: 0;
+    }
+}
+
+/*=====ABOUT-IMG=====*/
+
 .about-img{
-    min-width: 335px;
+    width: 335px;
     height: 499px;
     border-radius: 4px;
     margin: 0 auto;
 }
 
 @media screen and (min-width:768px)  {
-
     .about-img{
-    min-width: 704px;
-    height: 545px;
+        width: 704px;
+        height: 545px;
     }
 }
 
 @media screen and (min-width:1280px) {
-
     .about-img{
-        min-width: 594px;
-        height: 545px;
-    } 
+        width: 594px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .about-img{
+        width: 709px;
+    }
 }
