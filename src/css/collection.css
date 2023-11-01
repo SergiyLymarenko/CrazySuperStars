@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 768px) {
   .collection-card {
-    width: calc((100% - 20px) / 3);
+    width: calc((100% - 20px) / 2);
   }
 }
 
