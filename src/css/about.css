@@ -28,12 +28,12 @@
     }
 
     @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx){
-    .about{
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .about{
         background-image: url(../img/about/element-tab-2x.png);
+        }
     }
-}
 }
 
 @media screen and (min-width:1280px) {
@@ -45,13 +45,13 @@
         padding: 150px 0 70px 0;
     }
 
-    @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx){
-    .about{
-        background-image: url(../img/about/element-des1280-2x.png);
+        @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .about{
+            background-image: url(../img/about/element-des1280-2x.png);
+        }
     }
-}
 }
 
 @media screen and (min-width:1440px) {
@@ -60,13 +60,13 @@
         background-size: 490px 484px;
     }
 
-    @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx){
-    .about{
-        background-image: url(../img/about/element-des1440-2x.png);
+        @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .about{
+            background-image: url(../img/about/element-des1440-2x.png);
+        }
     }
-}
 }
 
 /*=====CONTAINER-ABOUT=====*/
