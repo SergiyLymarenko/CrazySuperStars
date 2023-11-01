@@ -2,26 +2,29 @@
 /* обертка секции */
 .collection {
   margin-top: 80px;
-  background-image: url(../img/mobile/elements-bg-1x.png);
+  background-image: url(./img/mobile/elements-bg-1x.png);
   background-position: 0 254px;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 768px) {
   .collection {
-    padding-top: 100px;
+    background-image: url(./img/tablet/elements-bg-1x.png);
+    background-position: 0 224px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .collection {
-    padding-top: 150px;
+    background-image: url(./img/desktop/elements-bg-1x.png);
+    background-position: 0 224px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .collection {
-    padding-top: 150px;
+    background-image: url(./img/desktop-1440/elements-bg-1x.png);
+    background-position: 0 224px;
   }
 }
 
@@ -41,20 +44,20 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .collection-list {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 20px;
   }
-}
+} */
 
 /* collection-card */
 
 .collection-card {
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .collection-card {
     width: calc((100% - 20px) / 2);
   }
@@ -64,7 +67,7 @@
   .collection-card {
     width: calc((100% - 20px) / 4);
   }
-}
+} */
 
 /* заголовок h2 */
 .collection-title {
@@ -89,6 +92,26 @@
   margin-bottom: 18px;
   margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .collection-img {
+    width: 342px;
+    height: 430px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection-img {
+    width: 347px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .collection-img {
+    width: 400px;
+  }
+}
+
 /* заголовок h3 */
 .collection-subtitle {
   font-size: 14px;
