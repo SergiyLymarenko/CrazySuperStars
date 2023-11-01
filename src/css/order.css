@@ -53,13 +53,13 @@
         background-size: 100%;
         background-size: contain;
        
-        width: 1282px;
-        height: 776px;
+        min-width: 1282px;
+        min-height: 776px;
     }
     
 }
 
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2),
+/* @media (min-width: 1280px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .order-photo{
@@ -73,7 +73,7 @@
         width: 1282px;
         height: 776px;
     }
-}
+} */
 
 
 
