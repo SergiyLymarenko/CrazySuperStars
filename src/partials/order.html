@@ -14,16 +14,25 @@
       </h2>
       <form class="form-order" name="order-form" autocomplete="off" novalidate>
         <div class="order-label">
-          <input
+          <label for="label-order"> <input
+            id="label-order"
             type="text"
             class="order-input"
             placeholder="Enter your full name"
-          />
-          <input
-            type="email"
-            class="order-input"
-            placeholder="Enter your email"
-          />
+            required
+            pattern="regexp"
+          /></label>
+         
+          <label for="order-input-two">
+            <input
+            id="order-input-two"
+              type="email"
+              class="order-input"
+              placeholder="Enter your email"
+              required
+              pattern="regexp"
+            />
+          </label>
           <textarea
             class="order-input textarea"
             name="user-comment"
@@ -33,16 +42,16 @@
             width="335"
           ></textarea>
         </div>
-    
-      </form>
-    
-    
-        <button type="button" class="order-btn">
+        <button type="submit" class="order-btn">
           Send
           <svg class="orer-icon" height="19" width="36">
             <use  class="logo-order-svg" href="./img/symbol-defs.svg#icon-arrow"></use>
           </svg>
         </button>
+      </form>
+    
+    
+        
     
     </div>
     

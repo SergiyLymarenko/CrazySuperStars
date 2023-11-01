@@ -30,6 +30,9 @@
     border-radius: 4px;
     background-size: contain;
 }
+.label-order:required{
+    border-color: aquamarine;
+}
 @media screen and (min-width: 768px) {
     .order-photo{
         
@@ -39,7 +42,7 @@
         
         margin: 100px 0 100px 0;
         background-size: contain;
-        width: 768px;
+        max-width: 768px;
         height: 776px;
         
     }
@@ -53,27 +56,25 @@
         background-size: 100%;
         background-size: contain;
        
-        min-width: 1282px;
-        min-height: 776px;
+        max-width: 1282px;
+        max-height: 776px;
     }
     
 }
 
-/* @media (min-width: 1280px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-resolution: 192dpi)
+ {
     .order-photo{
         
         background: url(../img/order/order-desktop2x.jpg) ;
         background-repeat: no-repeat;
         background-position:center;
         background-size: 100%;
-        background-size: contain;
+        background-size: cover;
+        max-width: 1282px;
        
-        width: 1282px;
-        height: 776px;
     }
-} */
+}
 
 
 
@@ -301,5 +302,32 @@ background-image: url(../img/tablet/vyshyvka-tablet-bg-1x.png);
     .proba{
         display: flex;
         flex-direction: row-reverse;
+    }
+}
+@media screen and (min-width: 1440) {
+    .order-photo{
+        
+        background: url(../img/order/order1440.jpg) ;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+        margin: 100px 0 100px 0;
+        background-size: contain;
+        max-width: 1440px;
+        height: 776px;
+        
+    }
+}
+@media (min-width: 14400px) and (min-resolution: 192dpi)
+ {
+    .order-photo{
+        
+        background: url(../img/order/order11402x.jpg) ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        background-size: cover;
+        max-width: 1440px;
+       
     }
 }
