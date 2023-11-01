@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: 260px 408px;
     margin-bottom: 20px;
+    padding: 80px 0 60px 0;
+    padding-bottom: 60px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -21,6 +23,8 @@
         background-image: url(../img/about/element-tab.png);
         background-size: 380px 484px;
         margin-bottom: 50px;
+        padding-bottom: 50px;
+        padding: 100px 0 50px 0;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -36,8 +40,9 @@
     .about{
         background-image: url(../img/about/element-des1280.png);
         background-size: 390px 484px;
-        margin-bottom: 70px;
+        margin-bottom: 0;
         background-position: right bottom;
+        padding: 150px 0 70px 0;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -67,22 +72,11 @@
 /*=====CONTAINER-ABOUT=====*/
 
 .container-about{
-    
-    padding-bottom: 60px;
     margin: 0 auto;
-    padding: 80px 0 60px 0;
-}
-
-@media screen and (min-width:768px)  {
-    .container-about{
-        padding-bottom: 50px;
-        padding: 100px 0 50px 0;
-    }
 }
 
 @media screen and (min-width:1280px) {
     .container-about{
-        padding: 150px 0 80px 0;
         display: flex;
         gap: 50px;
         justify-content: space-between;
