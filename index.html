@@ -16,8 +16,8 @@
     />
 
     
-    <script type="module" crossorigin src="/CrazySuperStars/assets/index-bbcc744e.js"></script>
-    <link rel="stylesheet" href="/CrazySuperStars/assets/index-4e8c6b8e.css">
+    <script type="module" crossorigin src="/CrazySuperStars/assets/index-1247f56d.js"></script>
+    <link rel="stylesheet" href="/CrazySuperStars/assets/index-01922206.css">
   </head>
 
   <body>
@@ -38,7 +38,7 @@
           <a class="header-link" href="#order">Customer order</a>
         </li>
         <li class="header-menu-text">
-          <a class="header-link" href="#testimonial">Testimonials</a>
+          <a class="header-link" href="#testimonials">Testimonials</a>
         </li>
       </ul>
     </nav>
@@ -92,14 +92,14 @@
       </li>
     </ul>
 
-    <button type="button" class="menu-btn">
+    <button type="button" class="menu-btn js-open-menu">
       <svg width="44" height="30">
         <use href="/CrazySuperStars/assets/symbol-defs-af10186b.svg#icon-Nav"></use>
       </svg>
     </button>
 
     <!--is-open"> -->
-    <div class="mob-menu">
+    <div class="mob-menu js-menu-container">
       <div class="mob-menu-header">
         <address class="mob-address">
           <a class="mob-contacts-link" href="tel:+380684439426"
@@ -107,7 +107,7 @@
           >
         </address>
 
-        <button type="button" class="mob-menu-btn">
+        <button type="button" class="mob-menu-btn js-close-menu">
           <svg class="mob-menu-close" width="36" height="36">
             <use href="/CrazySuperStars/assets/symbol-defs-af10186b.svg#icon-close"></use>
           </svg>
@@ -116,16 +116,20 @@
 
       <ul class="mob-nav-menu">
         <li class="mob-menu-text">
-          <a class="mob-menu-link" href="#about">About us</a>
+          <a class="mob-menu-link header-link" href="#about">About us</a>
         </li>
         <li class="mob-menu-text">
-          <a class="mob-menu-link" href="#collection">Our collection</a>
+          <a class="mob-menu-link header-link" href="#collection"
+            >Our collection</a
+          >
         </li>
         <li class="mob-menu-text">
-          <a class="mob-menu-link" href="#order">Customer order</a>
+          <a class="mob-menu-link header-link" href="#order">Customer order</a>
         </li>
         <li class="mob-menu-text">
-          <a class="mob-menu-link" href="#testimonial">Testimonials</a>
+          <a class="mob-menu-link header-link" href="#testimonials"
+            >Testimonials</a
+          >
         </li>
       </ul>
     </div>
@@ -518,6 +522,12 @@
 </footer>
 
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
