@@ -1,57 +1,77 @@
-
-<section class="order" id="order">
-  
+<section class="order order-photo section">
   <div class="container order-container">
-  <div class="order-photo"></div>
-
-    
-  <div class="proba">
-    
-    <div class="order-section">
+    <form id="order" class="order-form">
       <h2 class="order-text">
         <span class="order-span">Your order</span> is our priority: Personalized
         approach and quality of service
       </h2>
-      <form class="form-order" name="order-form" autocomplete="off" novalidate>
-        <div class="order-label">
-          <input
-            type="text"
-            class="order-input"
-            placeholder="Enter your full name"
-          />
-          <input
-            type="email"
-            class="order-input"
-            placeholder="Enter your email"
-          />
-          <textarea
-            class="order-input textarea"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Comments"
-            height="196"
-            width="335"
-          ></textarea>
-        </div>
-    
-      </form>
-    
-    
-        <button type="button" class="order-btn">
+      <div class="order-label">
+        <input
+          class="order-input"
+          type="text"
+          pattern="regexp"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          class="order-input"
+          type="email"
+          placeholder="Enter your email"
+          required
+          pattern="regexp"
+        />
+        <textarea
+          class="order-comment"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comments"
+        ></textarea>
+      </div>
+      <div class="order-btn-box">
+        <button class="order-btn" type="submit">
           Send
-          <svg class="orer-icon" height="19" width="36">
-            <use  class="logo-order-svg" href="./img/symbol-defs.svg#icon-arrow"></use>
+          <svg class="order-icon" width="19" height="36">
+            <use
+              class="logo-order-svg"
+              href="./img/symbol-defs.svg#icon-arrow"
+            ></use>
           </svg>
         </button>
-    
-    </div>
-    
-    <div class="order-section-last">
-      <div class="order-section-two">
       </div>
-      <div class="order-tree"></div>
-    </div>
+    </form>
+    <picture class="order-logo">
+      <source
+        srcset="
+          ./img/order/vyshyvanka-desc1440-order-1x-min.jpeg 1x,
+          ./img/order/vyshyvanka-desc1440-order-2x-min.jpeg 2x
+        "
+        media="(min-width: 1440px)"
+        type="image/jpeg"
+      />
+      <source
+        srcset="
+          ./img/order/vyshyvanka-desc-order-1x-min.jpeg 1x,
+          ./img/order/vyshyvanka-desc-order-2x-min.jpeg 2x
+        "
+        media="(max-width: 1439px)"
+        type="image/jpeg"
+      />
+      <source
+        srcset="
+          ./img/order/vyshyvanka-tab-order-1x-min.jpeg 1x,
+          ./img/order/vyshyvanka-tab-order-2x-min.jpeg 2x
+        "
+        media="(max-width: 1279px)"
+        type="image/jpeg"
+      />
+      <source srcset="" media="(max-width: 767px)" type="image/jpeg" />
+      <img
+        class="order-img"
+        src="./img/tablet/girl-and-boy-1x.jpeg"
+        alt="vyshyvanka"
+        height="521"
+        width="638"
+      />
+    </picture>
   </div>
-
-</div>
 </section>
