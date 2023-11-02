@@ -10,8 +10,8 @@
     
 
     
-    <script type="module" crossorigin src="/CrazySuperStars/assets/index-6b7185b8.js"></script>
-    <link rel="stylesheet" href="/CrazySuperStars/assets/index-e3fe7956.css">
+    <script type="module" crossorigin src="/CrazySuperStars/assets/index-79239111.js"></script>
+    <link rel="stylesheet" href="/CrazySuperStars/assets/index-f43dc0d1.css">
   </head>
 
   <body>
@@ -409,72 +409,75 @@
 
       <section class="order order-photo section">
   <div class="container order-container">
-    <form id="order" class="order-form">
-      <h2 class="order-text">
-        <span class="order-span">Your order</span> is our priority: Personalized
-        approach and quality of service
-      </h2>
-      <div class="order-label">
-        <input
-          class="order-input"
-          type="text"
-          pattern="regexp"
-          placeholder="Enter your full name"
-          required
+    <div id="order" class="form-container">
+      <form class="order-form">
+        <h2 class="order-text">
+          <span class="order-span">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h2>
+        <div class="order-label">
+          <input
+            class="order-input"
+            type="text"
+            pattern="regexp"
+            placeholder="Enter your full name"
+            required
+          />
+          <input
+            class="order-input"
+            type="email"
+            placeholder="Enter your email"
+            required
+            pattern="regexp"
+          />
+          <textarea
+            class="order-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </div>
+        <div class="order-btn-box">
+          <button class="order-btn" type="submit">
+            Send
+            <svg class="order-icon" width="19" height="36">
+              <use
+                class="logo-order-svg"
+                href="/CrazySuperStars/assets/symbol-defs-af10186b.svg#icon-arrow"
+              ></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <picture class="order-logo">
+        <source
+          srcset="/CrazySuperStars/assets/vyshyvanka-desc1440-order-1x-min-c34245c8.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-desc1440-order-2x-min-8970a212.jpeg 2x"
+          media="(min-width: 1440px)"
+          type="image/jpeg"
         />
-        <input
-          class="order-input"
-          type="email"
-          placeholder="Enter your email"
-          required
-          pattern="regexp"
+        <source
+          srcset="/CrazySuperStars/assets/vyshyvanka-desc1440-order-1x-min-c34245c8.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-desc1440-order-2x-min-8970a212.jpeg 2x"
+          media="(max-width: 1439px)"
+          type="image/jpeg"
         />
-        <textarea
-          class="order-comment"
-          name="user-comment"
-          id="user-comment"
-          placeholder="Comments"
-        ></textarea>
-      </div>
-      <div class="order-btn-box">
-        <button class="order-btn" type="submit">
-          Send
-          <svg class="order-icon" width="19" height="36">
-            <use
-              class="logo-order-svg"
-              href="/CrazySuperStars/assets/symbol-defs-af10186b.svg#icon-arrow"
-            ></use>
-          </svg>
-        </button>
-      </div>
-    </form>
-    <picture class="order-logo">
-      <source
-        srcset="/CrazySuperStars/assets/vyshyvanka-desc1440-order-1x-min-c34245c8.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-desc1440-order-2x-min-8970a212.jpeg 2x"
-        media="(min-width: 1440px)"
-        type="image/jpeg"
-      />
-      <source
-        srcset="/CrazySuperStars/assets/vyshyvanka-desc1440-order-1x-min-c34245c8.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-desc1440-order-2x-min-8970a212.jpeg 2x"
-        media="(max-width: 1439px)"
-        type="image/jpeg"
-      />
-      <source
-        srcset="/CrazySuperStars/assets/vyshyvanka-tab-order-1x-min-f4fe8cce.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-tab-order-2x-min-38538d14.jpeg 2x"
-        media="(max-width: 1279px)"
-        type="image/jpeg"
-      />
-      <source srcset="" media="(max-width: 767px)" type="image/jpeg" />
-      <img
-        class="order-img"
-        src="/CrazySuperStars/assets/girl-and-boy-1x-602cc55d.jpeg"
-        alt="vyshyvanka"
-        height="521"
-        width="638"
-      />
-    </picture>
+        <source
+          srcset="/CrazySuperStars/assets/vyshyvanka-tab-order-1x-min-f4fe8cce.jpeg 1x, /CrazySuperStars/assets/vyshyvanka-tab-order-2x-min-38538d14.jpeg 2x"
+          media="(max-width: 1279px)"
+          type="image/jpeg"
+        />
+        <source srcset="" media="(max-width: 767px)" type="image/jpeg" />
+        <img
+          class="order-img"
+          src="/CrazySuperStars/assets/girl-and-boy-1x-602cc55d.jpeg"
+          alt="vyshyvanka"
+          height="521"
+          width="638"
+        />
+      </picture>
+    </div>
   </div>
 </section>
+
       <section id="testimonials" class="testimonials section">
   <div class="testimonials-container container">
     <h2 class="testimonials-title">Testimonials</h2>
