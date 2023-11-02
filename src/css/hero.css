@@ -150,6 +150,9 @@
   border: 1px solid #ecd979;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
 
 .hero-img {
   display: block;

@@ -16,7 +16,6 @@
 
         <a href="#order" class="hero-link"
           >Order
-
           <svg class="svg-arrow" width="15" height="19">
             <use href="./img/symbol-defs.svg#order"></use>
           </svg>
@@ -46,12 +45,17 @@
       />
     </picture>
 
-    <img
-      src="./img/tablet/map-1x.jpeg"
-      alt="shirt"
-      class="images-crop"
-      width="157px"
-      height="151px"
-    />
+    <picture class="">
+      <source
+        srcset="./img/hero/map-desktop-1x.jpg 1x, ./img/hero/map-desktop-2x.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./img/hero/map-tablet-1x.jpg 1x, ./img/hero/map-tablet-2x.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <img src="./img/tablet/map-1x.jpeg" alt="shirt" class="images-crop" width="139px" height="171px"/>
+    </picture>
   </div>
 </section>
+
