@@ -77,12 +77,15 @@
 
         overflow-y: scroll;
         height: 312px;
+        
     }
 }
 
 @media screen and (min-width: 1280px) {
     .testimonials-list {
         gap: 26px;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
 
