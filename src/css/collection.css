@@ -3,7 +3,7 @@
 .collection {
   padding-top: 18px;
   padding-bottom: 80px;
-  background-image: url(./img/mobile/elements-bg-1x.png);
+  background-image: url(../img/mobile/elements-bg-1x.png);
   background-position: 0 254px;
   background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@
   .collection {
     padding-top: 50px;
     padding-bottom: 100px;
-    background-image: url(./img/tablet/elements-bg-1x.png);
+    background-image: url(../img/tablet/elements-bg-1x.png);
     background-position: 0 224px;
   }
 }
@@ -21,14 +21,14 @@
   .collection {
     padding-top: 70px;
     padding-bottom: 150px;
-    background-image: url(./img/desktop/elements-bg-1x.png);
+    background-image: url(../img/desktop/elements-bg-1x.png);
     background-position: 0 224px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .collection {
-    background-image: url(./img/desktop-1440/elements-bg-1x.png);
+    background-image: url(../img/desktop-1440/elements-bg-1x.png);
     background-position: 0 224px;
   }
 }
